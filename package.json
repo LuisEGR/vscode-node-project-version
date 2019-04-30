@@ -2,7 +2,7 @@
 	"name": "node-project-version",
 	"displayName": "node-project-version",
 	"description": "Visualize your NodeJS Project version",
-	"author": "Luis Enrique Gonzalez Rodriguez",
+	"author": "Luis Gonzalez",
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.33.0"
