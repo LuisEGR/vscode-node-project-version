@@ -4,7 +4,7 @@
 	"description": "Visualize your NodeJS Project version",
 	"author": "Luis Gonzalez",
 	"publisher": "Luis",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"icon": "images/counter.png",
 	"engines": {
 		"vscode": "^1.33.0"
