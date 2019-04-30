@@ -26,8 +26,7 @@ export class StatusBarItem {
 			let version = spawn('node', ['-p', `require('./package.json').version`], {cwd: dir}).output[1];
 			let name = spawn('node', ['-p', `require('./package.json').name`], {cwd: dir}).output[1];
 			let texto = (name + ' ' + version).replace(/\n/g, '');
-			// this._statusBarItem.text = texto;
-			this._statusBarItem.text = "node-project-version 0.0.2";
+			this._statusBarItem.text = texto;
 		}
 	}
 }
