@@ -1,10 +1,11 @@
 {
 	"name": "node-project-version",
-	"displayName": "node-project-version",
+	"displayName": "NodeJs Project Version",
 	"description": "Visualize your NodeJS Project version",
 	"author": "Luis Gonzalez",
 	"publisher": "Luis",
 	"version": "0.0.2",
+	"icon": "images/counter.png",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
@@ -30,5 +31,9 @@
 		"typescript": "^3.3.1",
 		"vscode": "^1.1.28"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LuisEGR/vscode-node-project-version.git"
+	}
 }
