@@ -3,6 +3,7 @@
 	"displayName": "node-project-version",
 	"description": "Visualize your NodeJS Project version",
 	"author": "Luis Gonzalez",
+	"publisher": "Luis",
 	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.33.0"
