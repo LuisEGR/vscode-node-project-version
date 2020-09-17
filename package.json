@@ -4,7 +4,7 @@
 	"description": "Visualize your NodeJS Project version",
 	"author": "Luis Gonzalez",
 	"publisher": "Luis",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"icon": "images/counter.png",
 	"engines": {
 		"vscode": "^1.33.0"
@@ -12,18 +12,18 @@
 	"categories": [
 		"Other"
 	],
-  "activationEvents": [
-    "workspaceContains:package.json"
-  ],
+	"activationEvents": [
+		"workspaceContains:package.json"
+	],
 	"main": "./out/extension.js",
 	"contributes": {
-    "commands": [
-      {
-        "command": "extension.update",
-        "title": "Update Package Info"
-      }
-    ]
-  },
+		"commands": [
+			{
+				"command": "extension.update",
+				"title": "Update Package Info"
+			}
+		]
+	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
